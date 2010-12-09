@@ -1,0 +1,12 @@
+Contents:
+
+ms.pl, msftputils.pm, ms.ini 
+
+- A utility for accessing files prepared for S&P by Morningstar,
+and when found, distributing them to other FTP sites. Configured by the ms.ini file,
+including re-attempt timing mechanism.
+
+ssc.pl, sscUtils.pm, ssc.ini 
+
+- Sector Scorecard processing, S&P (Sam Stovall). Input in XLS spreadsheet, 
+processing, distribution, e-mail, and Oracle table update onboard.
